@@ -35,3 +35,13 @@ model.add(Dense(1,init='uniform',activation='linear'))
 - Another Link
     - Need IEEE access to view
     - https://ieeexplore.ieee.org/abstract/document/7966019
+
+* Data does not only flow in one direction
+* Neurons can pass data into a previous layer or the same layer
+
+- Here is a good link with code examples
+    - https://colab.research.google.com/drive/18WiSw1K0BW3jOKO56vxn11Fo9IyOuRjh#scrollTo=VU6ve06iDV5Q
+
+- Helpful Explanations
+    - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+    
