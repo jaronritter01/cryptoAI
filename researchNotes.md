@@ -31,3 +31,7 @@ model.add(Dense(1,init='uniform',activation='linear'))
 ```
 
 * seems that around 500 epochs is a good number for incorperating all the mentioned parameters
+
+- Another Link
+    - Need IEEE access to view
+    - https://ieeexplore.ieee.org/abstract/document/7966019
