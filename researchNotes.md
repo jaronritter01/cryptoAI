@@ -19,9 +19,20 @@ Long Short-Term Memory Neural Network (LSTM)
 * These models are able to effectively associate memories and imput over time
 * Testing data should only be 5-10% of all the collected data
 
-* Have a 3D input requirement
-* in the form of (batch_size, time_steps, units)
+* Have a 3D input size: 
+    * in the form of (batch_size, time_steps, units)
 * ![pic for image](input.jpg)
+
+* batch size refers to number of data points being processed at one time without update to weights
+* in our example 1 hour is a data point and 32 data points would be a batch if the batch size was 32
+
+* time steps refer to the sequential length of the data
+* for example if we had 6 hours of data, then the time step would be 6 and our input would look like
+    * [d0, d1, d2, d3, d4, d5] 
+        - 6 sequential steps of data in reference to time
+
+* input_dim refers to the actual input we have like open_value, close_value, and volume
+    * we need to decide on which data to put into the model
 
 Neural Network with Keras
 =========================
