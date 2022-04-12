@@ -19,6 +19,10 @@ Long Short-Term Memory Neural Network (LSTM)
 * These models are able to effectively associate memories and imput over time
 * Testing data should only be 5-10% of all the collected data
 
+* Have a 3D input requirement
+* in the form of (batch_size, time_steps, units)
+* ![pic for image](input.jpg)
+
 Neural Network with Keras
 =========================
     
