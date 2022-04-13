@@ -14,10 +14,22 @@ Long Short-Term Memory Neural Network (LSTM)
     * Low
     * Close
     * Volume
-
 * Their method had 5 stages 
 * These models are able to effectively associate memories and imput over time
 * Testing data should only be 5-10% of all the collected data
+
+* Feature choice: 
+    * closing price 
+    * https://www.simple-stock-trading.com/why-is-a-stock-close-price-more-important-than-high-or-low-in-chart-analysis/
+    * volume 
+    * https://smartasset.com/financial-advisor/high-volume-stocks
+* From what I could read dtheir models tended to extract certain sets of features never choosing all. The one with coding only going with opening prices. Maybe we could just do these two? From my knowledge and a bit of digging found this.
+* also for the time, it might just be easier to not include it. Since our data is already linear the data at the start will contain value of past time anyway with bias. 
+
+
+*Data Cleaning 
+* https://indicodata.ai/blog/should-we-remove-duplicates-ask-slater/
+    * More to elude to removing redundat trends. I don't know how hard it would be but maybe a htought for compaision on accuracy to see if including the repetiative patterns have a positive or negative impact 
 
 * Have a 3D input size: 
     * in the form of (batch_size, time_steps, units)
@@ -30,9 +42,17 @@ Long Short-Term Memory Neural Network (LSTM)
 * for example if we had 6 hours of data, then the time step would be 6 and our input would look like
     * [d0, d1, d2, d3, d4, d5] 
         - 6 sequential steps of data in reference to time
+    * We have alot of data and 6 steps is relativley low, unless we do some cleaning of data maybe increase the amount ? idk
 
 * input_dim refers to the actual input we have like open_value, close_value, and volume
     * we need to decide on which data to put into the model
+
+
+*Training labels
+WTF we doing lol 
+
+
+
 
 Neural Network with Keras
 =========================
