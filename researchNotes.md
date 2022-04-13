@@ -62,6 +62,9 @@ Data Cleaning
 - WTF we doing lol 
 - So my current idea is to have 24 time steps and then the label would be the price that we are expecting on hour 25 (hour 25's closing price)
 
+* [Data Processing Vids](https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba)
+
+
 
 
 
