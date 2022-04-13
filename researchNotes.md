@@ -93,4 +93,12 @@ model.add(Dense(1,init='uniform',activation='linear'))
 
 - Helpful Explanations
     - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+
+Model Shape
+===========
+
+I Think a good shape for our model would be something like this:
+
+![model pic](LSTM_Model.drawio.svg)
     
