@@ -17,7 +17,8 @@ Long Short-Term Memory Neural Network (LSTM)
 * Their method had 5 stages 
 * ** let me know what you think of the features after reading this: ** [Article about relivent Features](https://shorturl.at/qCPQT)
     * this model has really good results
-    
+* This also talks about some features to use [features and junk](https://neptune.ai/blog/predicting-stock-prices-using-machine-learning)
+
 * These models are able to effectively associate memories and imput over time
 * Testing data should only be 5-10% of all the collected data
 
