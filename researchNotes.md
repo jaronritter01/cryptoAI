@@ -15,7 +15,7 @@ Long Short-Term Memory Neural Network (LSTM)
     * Close
     * Volume
 * Their method had 5 stages 
-* ** let me know what you think of the features after reading this: ** [Article about relivent Features](https://shorturl.at/qCPQT)
+* ** let me know what you think of the features after reading this: ** [Article about relivent Features](https://www.sciencedirect.com/science/article/pii/S1877050920307924)
     * this model has really good results
 * This also talks about some features to use [features and junk](https://neptune.ai/blog/predicting-stock-prices-using-machine-learning)
 
