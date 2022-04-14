@@ -47,6 +47,10 @@ Data Cleaning
 
 * batch size refers to number of data points being processed at one time without update to weights
 * in our example 1 hour is a data point and 32 data points would be a batch if the batch size was 32
+* I read that the optimal batch size is 64 or some other factor of 8 
+* with a data size of 34496, if we have 98 time steps, we would have 352 batches and I think that is good
+* the other option is 64 time steps and 539 batches
+* I think that lstm models kinda top out on time steps around 250 - 300
 
 * time steps refer to the sequential length of the data
 * for example if we had 6 hours of data, then the time step would be 6 and our input would look like
@@ -102,3 +106,7 @@ I Think a good shape for our model would be something like this:
 
 ![model pic](LSTM_Model.drawio.svg)
     
+Data Cleaning and Noise Reduction
+=================================
+- After running some analysis, I have determined that volumn is too inconsistent to used as a feature
+- Concerning high, low, open, and close: there is minimal 
