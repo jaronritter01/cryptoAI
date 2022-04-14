@@ -51,6 +51,7 @@ Data Cleaning
 * with a data size of 34496, if we have 98 time steps, we would have 352 batches and I think that is good
 * the other option is 64 time steps and 539 batches
 * I think that lstm models kinda top out on time steps around 250 - 300
+* I think that 64 is good it gives a good amount of batches if we do not remove anythin
 
 * time steps refer to the sequential length of the data
 * for example if we had 6 hours of data, then the time step would be 6 and our input would look like
@@ -110,3 +111,8 @@ Data Cleaning and Noise Reduction
 =================================
 - After running some analysis, I have determined that volumn is too inconsistent to used as a feature
 - Concerning high, low, open, and close: there is minimal 
+- https://www.skan.ai/process-mining-insights/how-to-use-machine-learning-to-separate-the-signal-from-the-noise
+- Here is something I found in regards to what noise looks like, some of the classifications of it do not apply to us 
+- Getting rid of redundant data might be valuable, but the outliers that do no commit to trend is interesting 
+    - Outliers in sock is very common so reducing it to a point might be helpful or it might, I don't think there is a way to tell unless we just test
+
