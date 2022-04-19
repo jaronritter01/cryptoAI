@@ -53,6 +53,15 @@ Data Cleaning
 * I think that lstm models kinda top out on time steps around 250 - 300
 * I think that 64 is good it gives a good amount of batches if we do not remove anythin
 
+- Selection:
+    - 32 time steps
+    - 1078 batches
+
+- Testing data:
+    * consists of 2415 last data points
+
+- Target Value is Close
+
 * time steps refer to the sequential length of the data
 * for example if we had 6 hours of data, then the time step would be 6 and our input would look like
     * [d0, d1, d2, d3, d4, d5] 
@@ -68,8 +77,6 @@ Data Cleaning
 - So my current idea is to have 24 time steps and then the label would be the price that we are expecting on hour 25 (hour 25's closing price)
 
 * [Data Processing Vids](https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba)
-
-
 
 
 
